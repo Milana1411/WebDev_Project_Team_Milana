@@ -1,0 +1,54 @@
+/*First Style Technique*/
+body {
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body.home-page {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe6f0;
+}
+
+body.about-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6f2ff;
+}
+
+/*Second Style Technique*/
+body.about-page {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6f2ff;
+    color: #1a1a1a;
+}
+
+h1 {
+    border-bottom: 3px solid #ff69b4;
+    padding-bottom: 5px;
+}
+
+h2 {
+    background-color: #ffffff;
+    border-left: 5px solid #ff69b4;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: #ff69b4;
+    text-decoration: underline;
+}
+
+img {
+    border: 3px solid #ddd;
+    border-radius: 10px;
+}
